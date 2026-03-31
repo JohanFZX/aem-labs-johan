@@ -242,13 +242,29 @@
         "name": "url",
         "value": "",
         "label": "Video URL",
+        "description": "YouTube, Vimeo, or MP4 video URL",
         "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "poster",
+        "label": "Poster Image",
+        "description": "Optional placeholder image shown before video loads",
+        "multi": false
+      },
+      {
+        "component": "boolean",
+        "name": "autoplay",
+        "label": "Autoplay",
+        "description": "Automatically play video when visible (muted, looped, no controls)",
+        "valueType": "boolean"
       },
       {
         "component": "text",
         "name": "title",
         "value": "",
         "label": "Video Title",
+        "description": "Accessible title for the video",
         "valueType": "string"
       }
     ]
