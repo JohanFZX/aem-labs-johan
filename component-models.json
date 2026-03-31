@@ -233,5 +233,24 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "video",
+    "fields": [
+      {
+        "component": "text",
+        "name": "url",
+        "value": "",
+        "label": "Video URL",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "title",
+        "value": "",
+        "label": "Video Title",
+        "valueType": "string"
+      }
+    ]
   }
 ]
