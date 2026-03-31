@@ -184,8 +184,7 @@
                 "template": {
                   "name": "Video",
                   "model": "video",
-                  "url": "",
-                  "title": ""
+                  "url": ""
                 }
               }
             }

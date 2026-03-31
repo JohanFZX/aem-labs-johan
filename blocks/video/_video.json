@@ -10,8 +10,7 @@
             "template": {
               "name": "Video",
               "model": "video",
-              "url": "",
-              "title": ""
+              "url": ""
             }
           }
         }
@@ -28,7 +27,7 @@
           "value": "",
           "label": "Video URL",
           "description": "YouTube, Vimeo, or MP4 video URL",
-          "valueType": "string"
+          "valueType": "url"
         },
         {
           "component": "reference",
@@ -43,14 +42,6 @@
           "label": "Autoplay",
           "description": "Automatically play video when visible (muted, looped, no controls)",
           "valueType": "boolean"
-        },
-        {
-          "component": "text",
-          "name": "title",
-          "value": "",
-          "label": "Video Title",
-          "description": "Accessible title for the video",
-          "valueType": "string"
         }
       ]
     }
